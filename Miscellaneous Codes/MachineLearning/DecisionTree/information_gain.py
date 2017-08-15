@@ -35,7 +35,7 @@ def gini(data, class_values):
     for value in valuess:
         total_prob_sq = float(total_prob_sq + float(value * value))
     
-    return float(1-total_prob_sq)
+    return float(total_prob_sq)
         
         
 
